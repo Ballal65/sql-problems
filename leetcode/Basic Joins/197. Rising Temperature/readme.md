@@ -1,0 +1,2 @@
+1. Note that if we want to change the dataframe without assigning it to any other variable, we will need to do 'inplace=True' to rename or drop columns. 
+2. Notice that shift(1) acts like a SQL LAG(var,1) and shift(-1) will act as SQL LEAD(var,1)
